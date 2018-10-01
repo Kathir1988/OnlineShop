@@ -3,7 +3,8 @@ package com.hibernate.page;
 public class Data {
 	
 	public long Reg_id;
-	public String names;
+	public String name;
+	public String dob;
 	public String password;
 	public String email;
 	public long getReg_id() {
@@ -13,10 +14,10 @@ public class Data {
 		Reg_id = reg_id;
 	}
 	public String getNames() {
-		return names;
+		return name;
 	}
 	public void setNames(String names) {
-		this.names = names;
+		this.name = names;
 	}
 	public String getPassword() {
 		return password;
